@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <Button
+        android:id="@+id/btnCaptureCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/captureCodeString"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/btnProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_productoString"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_weight="1"
+        />
+        <Button
+            android:id="@+id/btnSalir1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salirString"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

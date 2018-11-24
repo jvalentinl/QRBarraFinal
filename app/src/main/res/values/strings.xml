@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QRBarra</string>
+    <string name="captureCodeString">Capture Code</string>
+    <string name="scanerqr">ScanerQR</string>
+    <string name="salirString">Salir</string>
+    <string name="agregar_nuevo_productoString">Add New Product</string>
+    <string name="ver_productoString">Show Product</string>
+</resources>
